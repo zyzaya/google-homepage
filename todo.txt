@@ -1,0 +1,12 @@
+main elements
+  logo, search entry
+  search icon, search by voice button
+  buttons for google search, im feeling lucky
+  google offered in francais
+header
+  buttons for about, store
+  buttons for gmail
+  buttons for google apps, sign in
+footer
+  canada text
+  buttons for advertising, business, how search works, privacy, terms, settings
