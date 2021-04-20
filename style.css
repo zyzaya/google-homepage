@@ -1,5 +1,26 @@
-div {
-    margin: auto;
-    text-align: center;
-    width: 50%;
+body {
+    height: 100%;
+    margin: 0;
+
+    display:  flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.center {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.logo {
+    
 }
