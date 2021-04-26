@@ -2,46 +2,47 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <div class="left_header">
-            <input type="button" value="About">
-            <input type="button" value="Store">
+    <div id="header">
+        <a href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header" id="About">About</a>
+        <a href="https://store.google.com/CA/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA" id="Store">Store</a>
+        <div id="right_header">
+            <div>
+                <a href="https://www.google.com/intl/en-GB/gmail/about/" id="Gmail">Gmail</a>
+                <a href="https://www.google.ca/imghp?hl=en&ogbl" id="Images">Images</a>
+                <img src="apps_black_24dp.svg" alt="Google Apps" id="apps">
+                <a href="" id="sign_in">Sign In</a>
+            </div>
         </div>
-        <div class="right_header">
-            <input type="button" value="Gmail">
-            <input type="button" value="Images">
-            <input type="button" value="Apps">
-            <input type="button" value="Sign In">
-        </div>
+        
     </div>
-    <div class="center">
+    <div id="center">
         <div class="logo">
             <img id="logo" src="google_logo.png">
         </div>
-        <form>
-            <div class="search_form">
-                <div class="text_search">
-                    <input type="text" id="search" name="search">
-                </div>
-                <div class="search_buttons">
-                    <input type="button" value="Google Search">
-                    <input type="button" value="I'm Feeling Lucky">
-                </div>
-            </div>
-        </form>
-        <div class="language">
+        <div id="search_text">
+            <input type="text" id="search" name="search">
+        </div>
+        <div id="search_buttons">
+            <input type="button" value="Google Search">
+            <input type="button" value="I'm Feeling Lucky">
+        </div>
+        <div id="language">
             Google offered in: <a href="">Français</a>
         </div>
     </div>
-    <div class="footer">
-        <div class="country">Canada</div>
-        <div class="footer_buttons">
-            <input type="button" value="Advertising">
-            <input type="button" value="Business">
-            <input type="button" value="How Search Works">
-            <input type="button" value="Privacy">
-            <input type="button" value="Terms">
-            <input type="button" value="Settings">
+    <div id="footer">
+        <div id="country">Canada</div>
+        <div id="footer_buttons">
+            <div id="left_footer_buttons">
+                <a href="" id="Advertising">Advertising</a>
+                <a href="" id="Business">Business</a>
+                <a href="" id="How Search Works">How Search Works</a>
+            </div>
+            <div id="right_footer_buttons">
+                <a href="" id="Privacy">Privacy</a>
+                <a href="" id="Terms">Terms</a>
+                <a href="" id="Settings">Settings</a>
+            </div>
         </div>
     </div>
 </body>
