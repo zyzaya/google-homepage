@@ -88,21 +88,26 @@ a:hover {
 }
 
 #footer {
-    background-color: #f2f2f2;;
+    background-color: #f2f2f2;
     border-bottom: 1px solid #dadce0;
     color: rgba(0,0,0,.54);
 }
 
-#footer a {
-    background-color: #f2f2f2;;
+#country {
+    margin-left: 15px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
 }
 
 #footer_buttons {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
+    padding: 15px 30px;
 }
 
-#country {
-    margin-left: 15px;
+#footer_buttons div a {
+    color: #70757a;
+    padding: 15px;
 }
+
